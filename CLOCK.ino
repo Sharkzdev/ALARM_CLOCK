@@ -41,7 +41,7 @@ void setup() {
 
   uint8_t madctl_data = 0x28; 
   tft.sendCommand(0x36, &madctl_data, 1);
-  // -------------------------------------
+
 
   tft.fillScreen(ST77XX_BLACK);
   aht.begin();
